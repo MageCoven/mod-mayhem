@@ -63,3 +63,6 @@ mode = "fancy"
 				horse = true
 				donkey = true
 
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+

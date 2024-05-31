@@ -68,7 +68,7 @@
 	   GZIP - tar.gz using gzip compression
 	   TAR - .tar with no compression
 	*/
-	"format": "ZIP",
+	"format": "TAR",
 	/* 
 	   Minimal permission level required to run commands
 	*/

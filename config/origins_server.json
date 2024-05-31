@@ -1368,7 +1368,7 @@
       "origins-classes:more_animal_loot": true
     },
     "origins-plus-plus:enigma": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:enigma/clone": true,
       "origins-plus-plus:enigma/behind_you": true,
       "origins-plus-plus:enigma/hated": true,

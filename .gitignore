@@ -3,13 +3,8 @@ data/
 saves/
 backup/
 .fabric/
-
-journeymap/config/
-journeymap/data/
-journeymap/icon/
-journeymap/colorpalette.html
-journeymap/colorpalette.json
-journeymap/journeymap.log
+journeymap/
+.bobby/
 
 options.txt
 irisUpdateInfo.json

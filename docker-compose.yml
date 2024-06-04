@@ -1,0 +1,20 @@
+services:
+  mod-mayhem:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    container_name: mod-mayhem
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      MEMORY: "12G"
+      USE_AKAIR_FLAGS: TRUE
+      VERSION: "1.20.1"
+      DIFFICULTY: "HARD"
+      SERVER_NAME: "Mod Mayhem"
+      ENABLE_WHITELIST: "TRUE"
+      FABRIC_LOADER_VERSION: "0.15.11"
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/data
